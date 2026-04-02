@@ -1,0 +1,12 @@
+{
+  "site": {
+    "name": "NeuroNex AI",
+    "title": "星际传奇 - 文字冒险游戏"
+  },
+  "game": {
+    "title": "星际传奇",
+    "subtitle": "Text Adventure Game",
+    "welcome": "欢迎来到星际传奇。这是一个关于勇气、智慧与抉择的故事。",
+    "startPrompt": "输入 '开始' 或 'start' 开始游戏"
+  }
+}
