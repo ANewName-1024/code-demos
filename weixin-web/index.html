@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>西安伟信电子科技有限公司</title>
+  <meta name="description" content="西安伟信电子科技 - 专业卫星通信设备制造商，提供卫星通信终端、调制解调器、天线等设备，满足应急通信、远程教育、医疗数据传输等需求。">
+  <meta name="keywords" content="卫星通信,卫星天线,卫星调制解调器,应急通信,卫星终端,便携式卫星设备">
+  <meta name="author" content="西安伟信电子科技有限公司">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="西安伟信电子科技有限公司 - 卫星通信设备专家">
+  <meta property="og:description" content="专业卫星通信设备制造商，提供高品质卫星通信解决方案">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.weixin-electronics.com">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="西安伟信电子科技有限公司">
+  <meta name="twitter:description" content="专业卫星通信设备制造商">
+  
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.weixin-electronics.com">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  
+  <!-- Preload critical resources -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Structured Data - Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "西安伟信电子科技有限公司",
+    "url": "https://www.weixin-electronics.com",
+    "description": "专业卫星通信设备制造商",
+    "industry": "卫星通信设备"
+  }
+  </script>
+  
+  <!-- Structured Data - Product -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProductGroup",
+    "name": "卫星通信设备",
+    "description": "包括卫星通信终端、调制解调器、天线等设备"
+  }
+  </script>
+</head>
+<body>
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo" id="companyName">加载中...</a>
+      <button class="nav-toggle" id="navToggle">☰</button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" data-i18n="nav.home">首页</a></li>
+        <li><a href="#products" data-i18n="nav.products">产品中心</a></li>
+        <li><a href="#about" data-i18n="nav.about">关于我们</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">联系我们</a></li>
+        <li><button class="lang-toggle" id="langToggle">EN</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 首页横幅 -->
+  <section id="home" class="hero">
+    <div class="hero-particles" aria-hidden="true">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
+    <div class="hero-content">
+      <h1 id="heroTitle">连接无限，通信无界</h1>
+      <p id="heroSubtitle">专业卫星通信设备及解决方案提供商</p>
+      <a href="#products" class="btn btn-primary" data-i18n="hero.cta">查看产品</a>
+    </div>
+  </section>
+
+  <!-- 产品中心 -->
+  <section id="products" class="section">
+    <div class="container">
+      <h2 class="section-title" data-i18n="products.title">产品中心</h2>
+      <p class="section-subtitle" data-i18n="products.subtitle">Product Center</p>
+      <div class="products-grid" id="productsGrid">
+        <!-- 产品卡片将通过 JS 动态插入 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 产品详情弹窗 -->
+  <div class="modal" id="productModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">×</button>
+      <div class="modal-body" id="modalBody">
+        <!-- 详情内容 -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 关于我们 -->
+  <section id="about" class="section section-light">
+    <div class="container">
+      <h2 class="section-title" data-i18n="about.title">关于我们</h2>
+      <p class="section-subtitle" data-i18n="about.subtitle">About Us</p>
+      <div class="about-content">
+        <p id="aboutContent">加载中...</p>
+      </div>
+      <div class="about-features">
+        <div class="feature-box">
+          <div class="feature-icon">🎯</div>
+          <h3>企业使命</h3>
+          <p>为客户提供可靠的卫星通信解决方案</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">💡</div>
+          <h3>技术创新</h3>
+          <p>持续研发，引领行业发展</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">🤝</div>
+          <h3>客户服务</h3>
+          <p>专业的技术支持与售后服务</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系我们 -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title" data-i18n="contact.title">联系我们</h2>
+      <p class="section-subtitle" data-i18n="contact.subtitle">Contact Us</p>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-icon">📞</span>
+            <div>
+              <h4 data-i18n="contact.phone">电话</h4>
+              <p id="contactPhone">-</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">✉️</span>
+            <div>
+              <h4 data-i18n="contact.email">邮箱</h4>
+              <p id="contactEmail">-</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <div>
+              <h4 data-i18n="contact.address">地址</h4>
+              <p id="contactAddress">-</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <h3 data-i18n="contact.formTitle">在线留言</h3>
+          <div class="form-group">
+            <input type="text" name="name" required placeholder="请输入您的姓名 *">
+            <input type="email" name="email" required placeholder="请输入您的邮箱 *">
+            <input type="tel" name="phone" placeholder="请输入您的电话">
+            <input type="text" name="company" placeholder="请输入您的单位">
+            <textarea name="message" rows="4" required placeholder="请输入留言内容 *"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" data-i18n="contact.submit">提交</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 <span id="footerCompany">西安伟信电子科技有限公司</span>. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+{
+  "site": {
+    "title": "公司名称 - 公司口号",
+    "titleEn": "Company Name - Tagline",
+    "logo": "images/logo.png",
+    "favicon": "images/favicon.ico"
+  },
+  "company": {
+    "name": "公司名称",
+    "nameEn": "Company Name",
+    "tagline": "公司口号",
+    "taglineEn": "Company Tagline",
+    "description": "公司简介内容",
+    "descriptionEn": "Company Description",
+    "phone": "联系电话",
+    "email": "邮箱地址",
+    "address": "公司地址",
+    "website": "www.example.com",
+    "wechat": "微信公众号ID",
+    "qrcode": "images/wechat-qrcode.jpg"
+  },
+  "navigation": [
+    {"id": "home", "label": "首页", "labelEn": "Home", "href": "#home"},
+    {"id": "products", "label": "产品中心", "labelEn": "Products", "href": "#products"},
+    {"id": "solutions", "label": "解决方案", "labelEn": "Solutions", "href": "#solutions"},
+    {"id": "cases", "label": "案例展示", "labelEn": "Cases", "href": "#cases"},
+    {"id": "about", "label": "关于我们", "labelEn": "About Us", "href": "#about"},
+    {"id": "contact", "label": "联系我们", "labelEn": "Contact Us", "href": "#contact"}
+  ],
+  "hero": {
+    "title": "首页主标题",
+    "titleEn": "Hero Title",
+    "subtitle": "首页副标题",
+    "subtitleEn": "Hero Subtitle",
+    "cta": "查看更多",
+    "ctaEn": "Learn More",
+    "ctaLink": "#products",
+    "background": "images/hero-bg.jpg"
+  },
+  "products": [
+    {
+      "id": "product-1",
+      "name": "产品名称",
+      "nameEn": "Product Name",
+      "category": "产品分类",
+      "description": "产品描述",
+      "descriptionEn": "Product Description",
+      "image": "images/product1.jpg",
+      "images": ["images/product1-1.jpg", "images/product1-2.jpg"],
+      "features": ["特点1", "特点2", "特点3"],
+      "parameters": {
+        "参数1": "值1",
+        "参数2": "值2"
+      },
+      "datasheet": "files/product1-datasheet.pdf",
+      "enabled": true
+    }
+  ],
+  "solutions": [
+    {
+      "id": "solution-1",
+      "title": "解决方案标题",
+      "titleEn": "Solution Title",
+      "description": "解决方案描述",
+      "descriptionEn": "Solution Description",
+      "icon": "images/solution1-icon.png",
+      "features": ["特点1", "特点2"],
+      "enabled": true
+    }
+  ],
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "案例标题",
+      "titleEn": "Case Title",
+      "client": "客户名称",
+      "description": "案例描述",
+      "image": "images/case1.jpg",
+      "enabled": true
+    }
+  ],
+  "features": [
+    {"icon": "🎯", "title": "企业使命", "titleEn": "Mission", "description": "描述内容", "descriptionEn": "Description"},
+    {"icon": "💡", "title": "技术创新", "titleEn": "Innovation", "description": "描述内容", "descriptionEn": "Description"},
+    {"icon": "🤝", "title": "客户服务", "titleEn": "Service", "description": "描述内容", "descriptionEn": "Description"}
+  ],
+  "contact": {
+    "title": "联系我们",
+    "titleEn": "Contact Us",
+    "subtitle": "让我们为您提供服务",
+    "subtitleEn": "Let us serve you",
+    "formTitle": "在线留言",
+    "formTitleEn": "Leave a Message",
+    "fields": {
+      "name": {"label": "姓名", "labelEn": "Name", "required": true, "placeholder": "请输入您的姓名 *"},
+      "email": {"label": "邮箱", "labelEn": "Email", "required": true, "placeholder": "请输入您的邮箱 *"},
+      "phone": {"label": "电话", "labelEn": "Phone", "required": false, "placeholder": "请输入您的电话"},
+      "company": {"label": "单位", "labelEn": "Company", "required": false, "placeholder": "请输入您的单位"},
+      "message": {"label": "留言", "labelEn": "Message", "required": true, "placeholder": "请输入留言内容 *"}
+    },
+    "submit": "提交",
+    "submitEn": "Submit",
+    "successMessage": "感谢您的留言！我们会尽快与您联系。",
+    "successMessageEn": "Thank you for your message! We will contact you soon."
+  },
+  "footer": {
+    "copyright": "© 2024 公司名称. 保留所有权利。",
+    "copyrightEn": "© 2024 Company Name. All Rights Reserved.",
+    "links": [
+      {"label": "隐私政策", "labelEn": "Privacy Policy", "href": "/privacy"},
+      {"label": "服务条款", "labelEn": "Terms of Service", "href": "/terms"},
+      {"label": "网站地图", "labelEn": "Sitemap", "href": "/sitemap"}
+    ],
+    "social": {
+      "wechat": true,
+      "weibo": false,
+      "linkedin": false,
+      "twitter": false
+    }
+  },
+  "settings": {
+    "language": "zh",
+    "theme": "light",
+    "analytics": "",
+    "chatCode": ""
+  }
+}
