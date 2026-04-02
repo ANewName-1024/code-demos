@@ -7,7 +7,7 @@ spring:
   security:
     user:
       name: admin
-      password: ${EUREKA_USERNAME:Eureka@2024!Secure}
+      password: ${EUREKA_PASSWORD}
   profiles:
     include: docker
 

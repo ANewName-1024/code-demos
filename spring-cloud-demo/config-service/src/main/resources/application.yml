@@ -7,7 +7,7 @@ spring:
   datasource:
     url: jdbc:postgresql://8.137.116.121:8432/business_db?ssl=false
     username: business
-    password: NewPass2024
+    password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -32,7 +32,7 @@ spring:
   security:
     user:
       name: admin
-      password: admin
+      password: ${DB_PASSWORD}
   actuator:
     endpoints:
       web:
@@ -57,7 +57,7 @@ openclaw:
 # JWT 配置
 config:
   jwt:
-    secret: ConfigServiceJWTSecret2024
+    secret: ${JWT_SECRET}
     expiration: 86400000
 
 # Sleuth 分布式追踪配置
