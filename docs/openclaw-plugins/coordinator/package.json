@@ -1,0 +1,10 @@
+{
+  "name": "@openclaw/coordinator",
+  "version": "1.0.0",
+  "description": "Task coordinator for OpenClaw",
+  "type": "module",
+  "main": "index.ts",
+  "openclaw": {
+    "plugins": ["coordinator"]
+  }
+}

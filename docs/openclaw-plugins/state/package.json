@@ -1,0 +1,13 @@
+{
+  "name": "@openclaw/state",
+  "version": "1.0.0",
+  "description": "State management for OpenClaw",
+  "type": "module",
+  "main": "index.ts",
+  "openclaw": {
+    "plugins": ["state"]
+  },
+  "dependencies": {
+    "zod": "^3.22.0"
+  }
+}
